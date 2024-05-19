@@ -1,0 +1,32 @@
+void main() {
+  // a. Değişken tanımlamaları ve konsola bastırma
+  int number = 42;
+  String name = "sueda";
+  double price = 19.99;
+  bool isActive = true;
+  dynamic anyType = "Hello";
+  String initial = 'J';
+
+  print(number);
+  print(name);
+  print(price);
+  print(isActive);
+  print(anyType);
+  print(initial);
+
+  // b. CamelCase, snake_case ve PascalCase olarak tekrar tanımlama ve konsola bastırma
+  int myNumber = number;
+  String my_name = name;
+  double MyPrice = price;
+
+  print(myNumber);
+  print(my_name);
+  print(MyPrice);
+
+  // c. Kendi adımı, soyadımı, yaşımı ve reşitlik durumumu tanımlayıp ekrana bastırma
+  String firstName = "Sueda";
+  int age = 20;
+  bool isAdult = age >= 18;
+
+  print("ben $firstName  reşitlik durumum $isAdult");
+}
